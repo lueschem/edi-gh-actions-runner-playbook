@@ -1,2 +1,2 @@
-- src: https://github.com/MonolithProjects/ansible-github_actions_runner.git
-  version: 1.15.1
+- src: https://github.com/lueschem/ansible-github_actions_runner.git
+  version: master
