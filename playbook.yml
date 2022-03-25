@@ -1,0 +1,8 @@
+---
+- name: Install GitHub Actions Runner
+  hosts: all
+
+  roles:
+    - role: ansible-github_actions_runner
+      user: gitops
+      become: yes
