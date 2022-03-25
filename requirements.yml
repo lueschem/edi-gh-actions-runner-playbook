@@ -1,2 +1,4 @@
 - src: https://github.com/lueschem/ansible-github_actions_runner.git
   version: master
+- src: https://github.com/lueschem/edi_installer.git
+  version: main
