@@ -1,4 +1,4 @@
-- src: https://github.com/lueschem/ansible-github_actions_runner.git
-  version: master
+- src: https://github.com/MonolithProjects/ansible-github_actions_runner.git
+  version: 1.15.2
 - src: https://github.com/lueschem/edi_installer.git
   version: main
