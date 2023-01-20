@@ -1,10 +1,10 @@
 ---
-- name: Install GitHub Actions Runner
+- name: Install GitHub Actions Runner and edi
   hosts: all
 
   roles:
+    - role: edi_installer
+      become: true
     - role: ansible-github_actions_runner
       user: gitops
-      become: true
-    - role: edi_installer
       become: true
